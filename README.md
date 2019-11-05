@@ -1,6 +1,6 @@
 # phi-events
 
-phi-events is an event logger for Node/Express and React routers.
+phi-events is a utility logger to compare streams of events, for Node/Express and React routers.
 
 It can be installed via git clone or NPM install.
 
