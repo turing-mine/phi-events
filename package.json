@@ -1,7 +1,7 @@
 {
   "name": "phi-events",
   "version": "1.8.2",
-  "description": "Event logger to be used in Node/Express or React routers",
+  "description": "Utility logger to compare streams of events, used in Node/Express or React routers",
   "main": "logger.js",
   "scripts": {
     "test": "node test-logger.js"
@@ -12,9 +12,12 @@
   },
   "keywords": [
     "event",
+    "streams",
+    "events",
     "logger",
     "Node",
-    "React"
+    "React",
+    "phi"
   ],
   "author": "Paul August Zabin",
   "license": "MIT",
