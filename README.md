@@ -1,27 +1,27 @@
-# utility-loggerai
+# phi-events
 
-utility-logger is an event logger for Node/Express and React routers.
+phi-events is an event logger for Node/Express and React routers.
 
 It can be installed via git clone or NPM install.
 
-#### `GitHub: git clone https://github.com/turing-mine/utility-logger.git`
+#### `GitHub: git clone https://github.com/turing-mine/phi-events.git`
 
-#### `NPM: npm install utility-loggerai`
+#### `NPM: npm install phi-events`
 
-After an npm install your app's package.json should contain the dependency "utility-loggerai": "^3.9.1"
+After an npm install your app's package.json should contain the dependency "phi-events": "^1.8.2"
 
 
 ## Files and scripts
 
-utility logger is comprised of two Node scripts, including their corresponding TypeScript files
+phi-events is comprised of two Node scripts, including their corresponding TypeScript files
 
 ### logger.js
 
 In your app, you can either import or require this module:
 
-#### `import Logger from 'utility-loggerai'`
+#### `import Logger from 'phi-events'`
 
-#### `const Logger = require('utility-loggerai')`
+#### `const Logger = require('phi-events')`
 
 ### test-logger.js
 
@@ -33,9 +33,9 @@ This test will perform 3 sanity checks, making sure events are being recorded, a
 
 ## Compiling
 
-This module also includes logger.ts and test-logger.ts in the GitHub project.  After installing it in your app, copy the ts files to your app's node_modules/utility-loggerai directory, and run 
+This module also includes logger.ts and test-logger.ts in the GitHub project.  After installing it in your app, copy the ts files to your app's node_modules/phi-events directory, and run 
 
-#### `node_modules/typescript/bin/tsc node_modules/utility-loggerai/logger.ts`
+#### `node_modules/typescript/bin/tsc node_modules/phi-events/logger.ts`
 
 ## Usage
 
