@@ -1,1 +1,1 @@
-declare module 'utility-loggerai';
+declare module 'phi-events';
