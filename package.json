@@ -1,7 +1,7 @@
 {
   "name": "phi-events",
   "version": "1.8.2",
-  "description": "Utility logger to compare streams of events, used in Node/Express or React routers",
+  "description": "phi-events is a utility logger to compare streams of events, for Node/Express and React routers.",
   "main": "logger.js",
   "scripts": {
     "test": "node test-logger.js"
