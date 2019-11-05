@@ -1,0 +1,25 @@
+{
+  "name": "utility-loggerai",
+  "version": "3.9.1",
+  "description": "Event logger to be used in Node/Express or React routers",
+  "main": "logger.js",
+  "scripts": {
+    "test": "node test-logger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turing-mine/utility-logger.git"
+  },
+  "keywords": [
+    "event",
+    "logger",
+    "Node",
+    "React"
+  ],
+  "author": "Paul August Zabin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turing-mine/utility-logger/issues"
+  },
+  "homepage": "https://github.com/turing-mine/utility-logger#readme"
+}
