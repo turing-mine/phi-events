@@ -63,6 +63,31 @@ For eventLogger(300000) (or any timespan in milliseconds), the following string 
 
 #### `{"timestamp": "1572323990919", "count": "42"}`
 
+## Sample code
+
+You can use phi-events with an Express router
+
+```
+if (process.argv.length > 2){
+    if (process.argv[2] == 'dev=true'){
+        // Instantiate the logger
+        let eventLogger = Logger()
+        let myLogger = function (req, res, next) {
+            let maxseries = 60000
+            let firstCountStr = eventLogger(maxseries)
+            let firstCount = JSON.parse(firstCountStr)
+            let nextStampStr = eventLogger()
+            let nextStamp = JSON.parse(nextStampStr)
+            let nextCountStr = eventLogger(maxseries)
+            let nextCount = JSON.parse(nextCountStr)
+            console.log(`first: ${firstCount.count}   then: ${nextStamp.timestamp}   finally: ${nextCount.count}     req:   ${req.originalUrl}`)
+            next()
+        }
+        router.use(myLogger)
+    }
+}
+```
+
 ## Caveats
 
 The timespan of the event series is limited to the last 5 minutes of events.  This value can be changed in one line of the logger.js file:
