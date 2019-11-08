@@ -3,6 +3,7 @@
 exports.__esModule = true;
 function Logger() {
     var evtSeries = new Array();
+    //High Order function Logger() returns this event logger utility
     return function (evtType) {
         //5 minute event series threshhold (in milliseconds)
         var baseLimit = 300000;

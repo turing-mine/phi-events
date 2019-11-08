@@ -3,6 +3,7 @@
 
 function Logger(){
     let evtSeries = new Array()
+    //High Order function Logger() returns this event logger utility
     return function(evtType: any) {
         //5 minute event series threshhold (in milliseconds)
         const baseLimit = 300000

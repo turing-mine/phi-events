@@ -8,7 +8,7 @@ It can be installed via git clone or NPM install.
 
 #### `NPM: npm install phi-events`
 
-After an npm install your app's package.json should contain the dependency "phi-events": "^1.8.2"
+After an npm install your app's package.json should contain the dependency "phi-events": "^1.8.4"
 
 
 ## Files and scripts
